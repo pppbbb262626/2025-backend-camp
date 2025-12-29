@@ -1,0 +1,22 @@
+{
+  "name": "2025-backend-camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker compose --env-file .env up -d --build",
+    "restart": "docker compose --env-file .env up --force-recreate --build -d",
+    "stop": "docker compose --env-file .env stop",
+    "clean": "docker compose --env-file .env down -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toManyCat/2025-backend-camp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toManyCat/2025-backend-camp/issues"
+  },
+  "homepage": "https://github.com/toManyCat/2025-backend-camp#readme"
+}
